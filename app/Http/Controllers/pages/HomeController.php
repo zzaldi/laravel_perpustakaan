@@ -1,0 +1,26 @@
+<?php
+
+namespace App\Http\Controllers\Pages;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+class HomeController extends Controller
+{
+    public function home()
+    {
+        return view("pages.home");
+    }
+    public function category()
+    {
+        return view("pages.kategori");
+    }
+    public function autor()
+    {
+        return view("pages.autor");
+    }
+    public function borrowings()
+    {
+        return view("pages.borrowings");
+    }
+}
